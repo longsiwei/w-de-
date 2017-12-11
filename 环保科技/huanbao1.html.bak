@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>环保科技</title>
+   <style>
+     *{margin:0px; padding:0px;}
+	 a{text-decoration:none;}
+	 li{list-style:none;}
+	 img{border:none;}
+
+	 .box{width:100%;
+	      height:606px; background:url(images/huanbao01.png)no-repeat center;  padding-top:40px; position:relative;}
+
+	 .aa{width:100%; height:102px; background:white; opacity:0.7; filter:alpha(opacity=70)}
+
+	 .var{width:1160px; height:102px; position:absolute; left:50%; margin-left:-580px; top:40px;}
+
+	 .logo{width:330px; height:72px; padding-top:28px; float:left; color:#02953a;} 
+
+	 .logo h1{font-size:30px; font-weight:bold; line-height:30px;}
+     .logo p{font-size:12px; line-height:36px; letter-spacing:1px;}
+
+	 .photo{width:830px; height:52px; float:left; }
+
+	 .photo p{float:right; background:url(images/photo.gif) no-repeat 0px 9px; padding:0 20px 0 30px; color:#02953a;
+	          font-size:14px; line-height:38px;}
+
+	 .we{width:830px; height:50px; float:right; }
+
+	 .we>ul {height:50px; float:right;}
+   
+     .we>ul>li{height:50px; padding:0px 16px; float:left; position:relative;}
+
+	 .we>ul>li>a{color:#4b4a4a;}
+
+	 .we>ul>li>a>h6{ text-align:center; font-size:18px; font-weight:normal; line-height:28px;}
+
+	 .we>ul>li>a>p{text-align:center; font-size:12px; lin-height:22px;}
+
+	 .we ul li.about{background:#02953a;}
+	 .we ul li.about a{color:white;}
+
+	 .we>ul>li:hover{background:#02953a;}
+	 .we>ul>li:hover  a {color:white;}
+
+     .we ul li .gongsi{width:440px; height:196px; background:white; position:absolute; left:0px; top:50px; display:none;}
+
+	 .we ul li .subnav-up{width:440px; height:20px;}
+
+	 .we ul li .subnav{width:440px; height:160px; bcakground:#fff; padding:16px 0 0 20px;}
+
+     .subnav ul{float:left;}
+
+	 .subnav ul li{width:80px; height:60px; font-size:12px; line-height:12px;}
+
+	 .we>ul>li:hover .gongsi{display:block;}
+
+	 .we .subnav ul li a{color:#666;}
+
+     .subnav ul li.last-li{height:12px;}
+
+	 .subnav ul li:hover a{color:red;}
+
+	 .subnav img{float:left;}
+
+	 .about-us{width:1160px; height:203px; padding-top:32px; margin:0 auto;
+	           text-align:center;}
+      
+	 .about-up{width:352px; height:32px; border:1px solid #333; margin:0 auto 54px; position:relative;}
+
+	 .about-up-net{width:300px; height:90px; font-size:30px; background:#fff; 
+	               position:absolute; left:26px; top:0px;}
+
+	 .about-us>p{
+			font-size:14px; line-height:32px;}
+	 .about-us>h4{
+			font-size:16px; line-height:44px;}
+
+	 .news-bg{width:100%; height:365px; background:#e5e5e5;}
+
+	 .news{width:1160px; height:341px; margin:0 auto; padding-top:24px;}
+
+	 .news-l{width:786px; height:341px; float:left;}
+
+	 .news-l-title{width:786px; height:28px; border-bottom:1px solid #93c692; position:relative;}
+
+	 .news-l-title h1{font-size:18px; font-weight:normal; width:96px; height:26px;
+	                  line-height:26px; text-align:center; border-bottom:3px solid #42a440; 
+					  position:absolute; left:0px; top:1px;}
+
+	 .news-m{width:770px; height:162px; padding:8px 0 0 16px;}
+
+	 .news-m img{float:left; margin-right:32px;}
+
+	 .news-m h1{font-size:16px; line-height:34px; text-align:center;}  
+
+	 .news-m p{font-size:14px; line-height:26px; text-indent:28px; letter-spacing:1px; }
+
+	 .news-m p a{font-style:italic; color:red;}
+
+	 .news-l ul{width:360px; padding-right:33px; float:left; }
+
+	 .news-l ul li{width:345px; height:28px; line-height:28px; font-size:14px; 
+	               background:url(images/news-pg.png) no-repeat 4px 10px; padding-left:15px; color:#000;} 
+
+	 .news-l ul li a{ float:left; width:240px; height:28px;
+	                  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+     .news-l ul li span{float:right;}
+
+	 .news-r{width:304px; height:317px; float:right; background:#45a643; padding-top:24px; }
+
+     .news-r-box{width:105px; height:94px; border:1px solid #c2e2c2; float:left; margin:0 0 20px 30px; 
+	             text-align:center; padding-top:14px; border-radius:4px;}
+
+	 .news-r-box p{color:#fff; font-size:14px; line-height:28px; padding-bottom:15px;}
+
+	 .news-r a{width:116px; height:38px; background:#db7800; font-size:14px; float:left; text-align:center;
+	           line-height:38px; margin-left:93px; color:#1b0f00;}
+
+
+	 .photo-we{width:1160px; height:370px; margin:0 auto; padding:21px 0; position:relative;}
+
+	 .photo-we >a{width:60px; height:90px; position:absolute; top:50%; margin-top:-45px;}
+
+	 .photo-we .we-l{left:0px; background:url(images/tu005.png);}
+	 .photo-we .we-r{right:0px; background:url(images/tu006.png);}
+
+	 .photo-m{width:1016px; height:370px; margin:0 auto;}
+
+	 .photo-m ul li{width:230px; height:370px; float:left; position:relative; margin-right:32px;}
+
+	 .photo-m ul li.last{margin-right:0px;}
+
+	 .photo-m .photo-aa{width:130px; height:130px; border:2px solid white; position:absolute; left:43px; top:113px;                               padding:5px; border-radius:50%;}
+
+	 .photo-m .photo-bb{width:130px; height:110px; background:white; text-align:center; border-radius:50%; padding-top:20px;}
+
+	 .photo-bb h4,.photo-bb h5{font-size:18px; color:#3f65aa;}
+	 .photo-bb h5{margin-bottom:8px;}
+
+	 .photo-m .photo-bb p{font-size:12px; color:#878686;}
+
+	 .last{width:100%; height:260px; background:#eeeeee;}
+
+	 .last .friend{width:1160px; height:40px; margin: 0 auto;}
+
+	 .last .friend a{font-size:14px;  color:#3e3e3e; margin-left:10px ; line-height:40px; }
+
+	 .last .shouye{width:100%; height:50px; background:#007b25; }
+
+	 .last .shouye ul{width:982px; height:50px; margin:0 auto;}
+
+	 .last .shouye ul li{ color:white; float:left; line-height:50px; padding:0 13px; }
+
+	 .last .shouye ul li a{color:white;}
+
+	 .last .last-up{width:1070px; height:142px; margin:0 auto; padding: 28px 0 0 90px; }
+
+	 .last .last-up ul li{font-size:14px; color:#3e3e3e; line-height:26px;}
+
+	 .last .last-up ul{width:706px; height:142px; float:left;}
+
+	 .last .last-up img{float:left; margin-right:30px;}
+   </style>
+ </head>
+ <body>
+    <div class="box">
+	     <div class="aa"></div>
+		 <div class="var">
+		     <div class="logo">
+			   <h1>环保科技有限公司</h1></a>
+			   <p>专业打造安全健康的生活环境，给您一片健康的地方</p></a>
+			 </div>
+			 <div class="photo">
+			   <P>服务热线:<span>400-000-0000</span></P>
+			 </div>
+			 <div class="we">
+			   <ul>
+			       <li>
+			          <a href="#">
+					     <h6>首页</h6>
+					     <p>Home</p>
+					  </a>
+				   </li>
+				   <li class="about">
+			          <a href="#">
+					     <h6>关于我们</h6>
+					     <p>About</p>
+					 </a>
+                      <div class="gongsi">
+                          <div class="subnav-up"></div>
+						  <div class="subnav">
+								<ul>
+								   <li><a href="#">公司简介</a></li>
+								   <li><a href="#">公司简介</a></li>
+								   <li class="last-li"><a href="#">企业文化</a></li>
+                                </ul>
+								   <img src="images/home.png"/>
+                          </div>
+					  </div>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>技术创新</h6>
+					     <p>Product</p>
+					  </a>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>新闻动态</h6>
+					     <p>News</p>
+					  </a>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>客户行业</h6>
+					     <p>Industry</p>
+					  </a>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>典型案例</h6>
+					     <p>Case</p>
+					  </a>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>人才招聘</h6>
+					     <p>Recruit</p>
+					  </a>
+				   </li>
+				   <li>
+			          <a href="#">
+					     <h6>联系我们</h6>
+					     <p>Contact</p>
+					  </a>
+				   </li>
+			   <ul>
+			 </div>
+		 </div>
+		 
+	</div> 
+	<div class="about-us">
+	   <div class="about-up">
+	       <div class="about-up-net">
+		      <p>about us</p>
+			  <p>关于我们</p>
+		   </div>
+	   </div>
+	   <p>环保科技有限公司（Henan Han Chinese environmental protection science and technology CO., LTD.）按照现代企业模式</p>
+	   <p>创办的专门从事环境保护技术咨询和技术服务的企业，专业从事环保设备的销售、环保工程的设计及施工等</p>
+	   <h4>真实技术 · 执着追求 · 美好环境 · 客户满意</h4>
+	</div>
+	<div class="news-bg">
+	   <div class="news">
+	       <div class="news-l">
+		      <div class="news-l-title">
+			       <h1>新闻中心</h1>
+			  </div>
+			  <div class="news-m">
+			       <img src="images/news-m.png">
+				   <h1>造成水源污染严重的三大因素是什么？</h1>
+				   <p>我们知道在新闻中经常会曝光出很多水污染、大气污染的例子，我国也采取了很多措施来保护我们的水环境。水是生命的源泉，没有水也便没有了生命。但是随着我国工业的发展导致了很多地方的水资源污染严重，给人们的健康构成了很大的威胁。环境问题已从地域性走向全球性。那么造成水源污染的 …<a href="#"><span>[了解详情]</span></a></p>
+			  </div>
+			  <div class="mews-l">
+			       <ul>
+				      <li><a href="#">环境监理的定义及目的</a><span>[2016-02-27]</span></li>
+					  <li><a href="#">PM2.5来自哪里?</a><span>[2016-02-25]</span></li>
+					  <li><a href="#">环境监理的定义及目的</a><span>[2016-02-27]</span></li>
+					  <li><a href="#">PM2.5来自哪里?</a><span>[2016-02-25]</span></li>
+				   </ul>
+				   <ul>
+				      <li><a href="#">建设单位如何办理环境影响评价手续</a><span>[2016-02-27]</span></li>
+					  <li><a href="#">什么是光化学烟雾？</a><span>[2016-02-25]</span></li>
+					  <li><a href="#">建设单位如何办理环境影响评价手续</a><span>[2016-02-27]</span></li>
+					  <li><a href="#">PM2.5来自哪里?</a><span>[2016-02-25]</span></li>
+				   </ul>
+			  </div>
+		   </div>
+	 	   <div class="news-r">
+	                <div class="news-r-box">
+					  <img src="images/tu1.png">
+					  <p>企业文化</p>
+					</div>
+					<div class="news-r-box">
+					  <img src="images/tu4.png">
+					  <p>合作单位</p>
+					</div>
+					<div class="news-r-box">
+					  <img src="images/tu3.png">
+					  <p>组织机构</p>
+					</div>
+					<div class="news-r-box">
+					  <img src="images/tu2.png">
+					  <p>资质荣誉</p>
+					</div>
+					<h1><a href="#">了解详情</a></h1>
+		   </div>
+	   </div>
+	</div>
+
+    <div class="photo-we">
+	    <a href="#" class="we-l"></a>
+		<a href="#" class="we-r"></a>
+		<div class="photo-m">
+              <ul>
+			      <li>
+				    <a href="#">
+				       <img src="images/tu001.png">
+				          <div class="photo-aa">
+				             <div class="photo-bb">
+								<h4>市政污水</h4>
+								<h5>综合治理</h5>
+								<p>INDUSTRY WASTER</p> 
+								<p>WATER</p>
+							 </div>
+				          </div>
+				    </a>
+				  </li>
+
+				  <li>
+				    <a href="#">
+				       <img src="images/tu002.png">
+				          <div class="photo-aa">
+				             <div class="photo-bb">
+								<h4>市政污水</h4>
+								<h5>综合治理</h5>
+								<p>INDUSTRY WASTER</p> 
+								<p>WATER</p>
+							 </div>
+				          </div>
+				    </a>
+				  </li>
+
+				  <li>
+				    <a href="#">
+				       <img src="images/tu003.png">
+				          <div class="photo-aa">
+				             <div class="photo-bb">
+								<h4>市政污水</h4>
+								<h5>综合治理</h5>
+								<p>INDUSTRY WASTER</p> 
+								<p>WATER</p>
+							 </div>
+				          </div>
+				    </a>
+				  </li>
+
+				  <li class="last">
+				    <a href="#">
+				       <img src="images/tu004.png">
+				          <div class="photo-aa">
+				             <div class="photo-bb">
+								<h4>市政污水</h4>
+								<h5>综合治理</h5>
+								<p>INDUSTRY WASTER</p> 
+								<p>WATER</p>
+							 </div>
+				          </div>
+				    </a>
+				  </li>
+			  </ul>
+		</div>
+	
+	</div>	
+
+	<div class="last">
+	  <div class="friend">
+	  <a href="#">友情链接：河南环境监测</a>
+	  </div>
+	  <div class="shouye">
+	    <ul>
+            <li><a href="#">首页</a></li>
+			<li>/</li>
+			<li><a href="#">关于瀚华</a></li>
+			<li>/</li>
+			<li><a href="#">技术创新</a></li>
+			<li>/</li>
+			<li><a href="#">首新闻动态</a></li>
+			<li>/</li>
+			<li><a href="#">客户行业</a></li>
+			<li>/</li>
+			<li><a href="#">典型案例</a></li>
+			<li>/</li>
+			<li><a href="#">人才招聘</a></li>
+			<li>/</li>
+			<li><a href="#">联系我们</a></li>
+
+	    </ul>
+	  </div>
+	  <div class="last-up">
+	        <ul>
+			  <li>版权所有：河南瀚华环保科技有限公司   网站地图  </li>
+			  <li>地址：中国·郑州市郑汴路138号英协广场A座7楼</li>
+			  <li>联系人：李经理  电话：18638607999</li>
+			  <li>技术支持：郑州知网</li>
+			  <li>河南瀚华环保科技有限公司从事水资源净化处理,欢迎前来咨询! </li>
+			</ul>
+			<img src="images/wei.png">
+			<img src="images/wei2.png">
+	  </div>	
+	</div>
+ </body>
+</html>
